@@ -1,0 +1,17 @@
+{
+	"name": "pl_sample_activity",
+	"properties": {
+		"activities": [
+			{
+				"name": "wait pipeline",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"annotations": []
+	}
+}
